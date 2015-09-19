@@ -1,0 +1,332 @@
+/*
+Theme Name: Starkers HTML5
+Theme URI: http://nathanstaines.com
+Description: An HTML5 version of <a href="http://elliotjaystocks.com/starkers/">Starkers</a> by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a> which is based on Twenty Ten.
+Version: 3.2
+Author: Nathan Staines
+Author URI: http://nathanstaines.com
+Tags: starkers, html5, naked, clean, basic
+*/
+
+body {
+	
+}
+
+
+
+.slideshowlink{
+	display: none;
+}
+
+/*****************top bar ************/
+.top-bar .name h1 a {
+	text-shadow:0.2px 1px 0.6px #000;
+}
+.top-bar {
+	 -moz-box-shadow:    0px 0px 4px 2px #0b0402;;
+  -webkit-box-shadow: 0px 0px 4px 2px #0b0402;;
+  box-shadow:         0px 0px 4px 2px #0b0402;;
+
+}
+
+
+.top-bar-section ul li > a {
+	background-color:#8e1809;
+}
+
+
+
+
+
+/*******************end top bar ***********/
+/**************side bar *************/
+#sidebar {padding: 20px;
+margin-top: 20px;}
+
+.eat24 {
+width: 207px;
+height: 42px;
+display: block;
+background: url(http://eat24hrs.com/buttons/images/lrg_red_2_btn.png) 0 0; 
+}
+.eat24:hover {
+background-position: -207px 0;
+}
+
+
+/**************end side bar***********/
+
+
+
+
+/***************** footer ********************/
+#footer {
+	padding: 0;
+	margin:0;
+	margin-top: 12px;
+margin-bottom: 12px;
+
+}
+#footer footer {
+
+	color:#fdf7c4;
+}
+#footer footer ul>li>h3 {
+	display: none;
+}
+#footer-full-width {
+		background: #351f1f;
+		border-top: 1px solid #272322;
+border-bottom: 1px solid #413d3c;
+}
+#bottom-footer {
+	background: #343432;
+	height: 40px;
+	padding-top:10px;
+	color:#fff; 
+	font-size: 14px;
+}
+#footer_menu_1 {
+	margin-top: 10px;
+
+}
+#footer_menu_1 ul {
+	margin-left: 15px;
+}
+#footer_menu_1 ul > li {
+	display: block;
+
+	
+	
+}
+#footer_menu_1 ul > li a {
+	font-size: 14px; 
+	text-transform: lowercase;
+}
+#footer_menu_1 ul >li a:hover{
+	text-decoration: underline;
+}
+
+
+
+/******************* end footer *******************/
+/*************************contact form ***********/
+#cntctfrm_contact_name {
+   
+}
+input[type="submit"]{
+	padding: 5px;
+	color: #fff;
+	border: solid 1px #da7c0c;
+	background: #c51303;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c51303), to(#a80801));
+	background: -moz-linear-gradient(top,  #c51303,  #a80801);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c51303', endColorstr='#a80801');
+}
+
+
+
+/****************** end contact form ***********/
+/*******social media **************/
+.twitter-hover {
+background-image: url('../images/twitter-hover.png');
+}
+
+
+
+
+/*********end social media***********/
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** edit locu *****************/
+
+.locu-widget-wrapper #locu-render-output {
+	background-color:  #E0D7AF;
+}
+
+#LOCU_INNER_WRAPPER{
+	color:red;
+}
+.locu-widget-wrapper #locu-render-output .locu-outer  {
+	margin-top: 45px;
+}
+
+.locu-widget-wrapper #locu-render-output .locu-menu .locu-menu-item .locu-menu-item-name {
+	color:#8e1809;
+}
+.section-name {
+	color:#8e1809;
+}
+.locu-widget-reset #powered_by_locu, .locu-widget-reset #powered_by_locu img {
+	width:40px;
+	float: right;
+}
+.locu-widget-wrapper #locu-render-output .locu-menu .section-name:before, .locu-widget-wrapper #locu-render-output .locu-menu .section-name:after{
+	background:#8e1809;
+}
+
+/*************** edit locu ****************/
+
+
+
+
+/********************menu page****************/
+.category {
+	font-size: 14px;
+}
+
+
+.category_head {
+border-bottom: #8e1809 dotted 2px;
+color: #999;
+padding-bottom: 5px;
+}
+.category_head h3 {
+	color: #8e1809;
+font-size: 16px;
+margin: 10px 0 0 0;
+}
+.category ul {
+
+float: left;
+clear: both;
+display: block;
+margin: 0 0 20px 0;
+}
+li {
+	list-style: none;
+	display: list-item;
+text-align: -webkit-match-parent;
+}
+.category li.odd {
+margin-right: 20px;
+}
+.category ul li {
+padding-left: 0px;
+padding-right: 0px;
+list-style: none;
+font-size: 12px;
+}
+
+.menu_item .name {
+font-weight: bold;
+text-transform: uppercase;
+}
+.menu_item .price {
+float: right;
+font-weight: bold;
+margin-right: 20px;
+}
+.menu_item .description {
+color: #8e1809;
+font-style: italic;
+}
+
+/**********************menu page*****************/
+
+/*************************header****************/
+#slideshow {
+	margin-top: 20px;
+}
+
+
+
+/***********************end header*****************/
+
+
+
+#menu {
+	margin-top:10px;
+}
+#menu nav ul li {
+	list-style:none;
+	display:inline;
+	margin:10px 20px 10px 10px;
+	
+}
+#menu nav ul li>a{
+	color:#f0d9af;
+	text-shadow:0.8px 0.3px 1px #ccc;
+	
+}
+#menu nav ul li>a:hover {
+	color:#d7a116;
+}
+#menu nav ul li >a.active{
+	color:#d7a116;
+}
+.base {
+	color: #8e1809;
+font-style: normal;
+letter-spacing: 2px;
+border-bottom: 2px solid;
+margin-top: 40px;
+border-top: 2px solid;
+}
+
+
+
+
+
+
+#main {
+	 -moz-box-shadow:    1px 2px 1px -1px #0B0402;
+  -webkit-box-shadow: 1px 2px 1px -1px #0B0402;
+  box-shadow:         1px 2px 1px -1px #0B0402;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #E0D7AF;
+ 
+}
+
+@media only screen and (max-width:700px) {
+    /* Makes the responsive menu fit in the navigation container and change its background to black */
+     #sidebar {
+     	display: none;
+     }
+     #logo {
+     	text-align: center;
+     }
+}
+@media only screen and (max-width: 480px) {
+    /* Makes the responsive menu fit in the navigation container and change its background to black */
+     #sidebar {
+     	display: none;
+     }
+    #logo {
+     	text-align: center;
+     } 
+  
+    .top-bar ul {
+        
+        padding-bottom: 13px;
+    }
+    /* Change non active menu item color to black */
+    .top-bar-section ul li > a {
+        color: #220c07;
+    }
+    /* Gives the dropdown ul a black fill */
+    .top-bar-section ul {
+        background: #000;
+    }
+    /* Give the BACK button after going in a submenu the appropriate filling */
+    .top-bar-section .dropdown li.title h5 a {
+        line-height: 57px;
+        background-color: teal;
+    }
+    /* This fixes the position and the color of the dropdown arrow */
+    .top-bar-section .has-dropdown > a:after {
+        border-color: rgba(255, 255, 255, 1) transparent transparent;
+        margin-top: 2.5px;
+    }
+} /* end media query */
