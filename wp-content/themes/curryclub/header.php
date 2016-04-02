@@ -105,7 +105,7 @@
 <div class="large-4 small-8 columns" id="logo">
         <hgroup>
             <h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-      <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" style="margin-top:30px; alt="">
+      <img src="<?php bloginfo('template_directory'); ?>/images/curryclublogo.png" style="margin-top:30px; alt="">
             </a></h1>
             
         </hgroup>
